@@ -1,5 +1,13 @@
-@import "tailwindcss";
 @import url("./assets/css/fonts.css");
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-xs: 450px;
+    --color-primary: #F8F8F8;
+    --color-secondary: #1D2A3E;
+    --color-tertiary: #314A70;
+    --text-md: 15px;
+}
 
 * {
     margin: 0;
@@ -7,6 +15,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body {
     font-family: "Numens", sans-serif;
 }
@@ -15,4 +24,21 @@ body {
     background: transparent;
     width: 5px;
     height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-lg;
+}
+
+/* colored texts */
+.neonText {
+    color: #ae67fa;
+    text-shadow: 0 0 1px #ae67fa, 0 0 7px #ae67fa, 0 0 21px #ae67fa, 0 0 12px #7a45ab, 0 0 82px #7a45ab, 0 0 92px #7a45ab,
+        0 0 102px #7a45ab, 0 0 100px #7a45ab, 0 0 111px #7a45ab, 0 0 131px #7a45ab, 0 0 141px #7a45ab, 0 0 151px #7a45ab,
+        0 0 11px #7a45ab;
+    @apply font-bold text-white lg:text-[90px] text-[80px] lg:leading-[70px] md:leading-[60px] leading-[55px] sm:mt-2 mt-4 ;
+}
+
+.sub-head-text {
+    @apply lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[30px]
 }
