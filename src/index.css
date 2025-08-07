@@ -42,3 +42,14 @@ body {
 .sub-head-text {
     @apply lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[30px]
 }
+
+.container-padding {
+    @apply md:px-14 px-4
+}
+
+.paddingX{
+    @apply sm:px-16 px-6
+}
+.paddingY{
+    @apply sm:py-14 py-6
+}
