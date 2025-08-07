@@ -1,14 +1,18 @@
 @import "tailwindcss";
+@import url("./assets/css/fonts.css");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Numens", sans-serif;
 }
 
 ::-webkit-scrollbar {
-  background: transparent;
-  width: 5px;
-  height: 5px;
+    background: transparent;
+    width: 5px;
+    height: 5px;
 }
