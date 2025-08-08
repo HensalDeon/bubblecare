@@ -1,17 +1,22 @@
-import Hero from '../components/Hero'
-import AboutUs from '../components/AboutUs'
-import Industries from '../components/Industries'
-import Careers from '../components/Careers'
+import { Suspense, lazy } from "react";
+import Loader from "../components/Loader";
+
+const Hero = lazy(() => import("../components/Hero"));
+const AboutUs = lazy(() => import("../components/AboutUs"));
+const Industries = lazy(() => import("../components/Industries"));
+const Careers = lazy(() => import("../components/Careers"));
 
 const Home = () => {
-  return (
-    <>
-      <Hero />
-      <AboutUs />
-      <Industries />
-      <Careers />
-    </>
-  )
-}
+    return (
+        <>
+            <Suspense fallback={<Loader/>}>
+                <Hero />
+                <AboutUs />
+                <Industries />
+                <Careers />
+            </Suspense>
+        </>
+    );
+};
 
-export default Home
+export default Home;

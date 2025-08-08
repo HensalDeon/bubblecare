@@ -3,7 +3,8 @@ import { companyValues } from "../constants/data";
 import { MoveUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { containerVariants, itemVariants } from "../utils/animate";
-export const LifeAtBubble = () => {
+
+const LifeAtBubble = () => {
     return (
         <section className="bg-secondary text-white">
             <div className="container container-padding paddingY !mx-auto">
@@ -53,3 +54,5 @@ export const LifeAtBubble = () => {
         </section>
     );
 };
+
+export default LifeAtBubble;
