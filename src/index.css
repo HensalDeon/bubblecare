@@ -21,8 +21,8 @@ body {
 
 ::-webkit-scrollbar {
     background: transparent;
-    width: 5px;
-    height: 5px;
+    width: 0px;
+    height: 0px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -39,7 +39,7 @@ body {
 }
 
 .head-text {
-    @apply xl:text-[84px] md:text-7xl xs:text-6xl text-5xl leading-[120%]
+    @apply xl:text-[84px] md:text-7xl xs:text-[56px] text-4xl leading-[120%]
 }
 
 .sub-head-text {

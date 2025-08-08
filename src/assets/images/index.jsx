@@ -5,5 +5,10 @@ import twitter from "./twitter.svg";
 import linkedin from "./linkedin.svg";
 import hero from "./hero.svg";
 import heroItem from "./heroItem.svg";
+import hospitality from "./hospitality.svg";
+import healthcare from "./healthcare.svg";
+import housekeeping from "./housekeeping.svg";
+import retail from "./retail.svg";
+import manufacturing from "./manufacturing.svg";
 
-export { langSwitcher, instagram, facebook, twitter, linkedin, hero, heroItem };
+export { langSwitcher, instagram, facebook, twitter, linkedin, hero, heroItem, hospitality, healthcare, housekeeping, retail, manufacturing };
