@@ -3,7 +3,7 @@
 ## 🔗 Links
 
 - **GitHub Repository:** [https://github.com/HensalDeon/bubblecare](#)
-- **Live Deployed Link (Optional):** [https://bubblecare.netlify.app](#)
+- **Live Deployed Link:** [https://bubblecare.netlify.app](#)
 
 ---
 
