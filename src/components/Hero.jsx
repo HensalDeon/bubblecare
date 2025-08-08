@@ -38,7 +38,7 @@ const Hero = () => {
             <MoveRight className="transition-transform duration-300 ease-in-out group-hover:translate-x-1" size={20} />
           </a>
         </motion.div>
-        <div className='md:col-span-2 relative h-fit text-white'>
+        <div className='md:col-span-2 relative h-fit text-white overflow-hidden'>
           <img src={heroItem} className='w-full hover:scale-105 transition-transform duration-400 ease-out cursor-pointer' />
           <div className='absolute xl:bottom-7 bottom-4 xl:left-7 left-4'>
             <span className='flex items-center gap-2'>2025 GOAL<MoveUpRight className='w-4 h-4' /></span>

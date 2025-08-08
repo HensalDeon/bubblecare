@@ -10,5 +10,8 @@ import healthcare from "./healthcare.svg";
 import housekeeping from "./housekeeping.svg";
 import retail from "./retail.svg";
 import manufacturing from "./manufacturing.svg";
+import greenFuture from "./greenFuture.svg";
+import healtcareLaundry from "./healtcareLaundry.svg";
+import tunnelWasher from "./tunnelWasher.svg";
 
-export { langSwitcher, instagram, facebook, twitter, linkedin, hero, heroItem, hospitality, healthcare, housekeeping, retail, manufacturing };
+export { tunnelWasher, healtcareLaundry, greenFuture, langSwitcher, instagram, facebook, twitter, linkedin, hero, heroItem, hospitality, healthcare, housekeeping, retail, manufacturing };

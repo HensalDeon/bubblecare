@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { services } from '../constants/data'
 import { MoveUpRight } from 'lucide-react';
 import { motion } from "framer-motion"
+import IndustriesItems from './IndustriesItems';
 
 const Industries = () => {
   const [clickedCardIndex, setClickedCardIndex] = useState(0);
@@ -47,6 +48,8 @@ const Industries = () => {
             );
           })}
         </div>
+
+        <IndustriesItems />
       </div>
     </section>
   )
