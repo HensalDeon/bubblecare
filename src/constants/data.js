@@ -119,3 +119,25 @@ export const companyValues = [
         icon: environment
     }
 ];
+
+
+export const jobs = [
+    {
+        title: "Digital Marketing Head",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        tags: ["FULL-TIME", "HYBRID"],
+    },
+    {
+        title: "Project Manager",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        tags: ["FULL-TIME", "HYBRID"],
+    },
+    {
+        title: "Accountant",
+        description:
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        tags: ["FULL-TIME", "HYBRID"],
+    },
+];
