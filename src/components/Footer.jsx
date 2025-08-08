@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <footer className="bg-white text-tertiary relative w-full">
             <div className="container !mx-auto paddingY container-padding">
-                <div className="mx-auto py-12 grid lg:grid-cols-2 2xl:grid-cols-3 gap-10">
+                <div className="mx-auto py-12 grid lg:grid-cols-2 2xl:grid-cols-3 gap-8">
                     {/* Left Section: About */}
                     <div className="md:col-span-1">
                         <p className="text-sm leading-relaxed">{footerContent}</p>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
 
                     {/* Middle Section: Links */}
-                    <div className="md:col-span-1 grid grid-cols-3 gap-6 text-sm h-fit">
+                    <div className="md:col-span-1 grid grid-cols-3 gap-6 text-sm h-fit xl:mx-6">
                         {footerLinks?.map((option) => (
                             <div className="space-y-2" key={option}>
                                 <Link
@@ -37,7 +37,7 @@ const Footer = () => {
                     </div>
 
                     {/* Social Icons */}
-                    <div className="grid xl:grid-cols-2 grid-cols-4 2xl:gap-x-8 gap-4 text-sm w-fit h-fit">
+                    <div className="grid xl:grid-cols-2 grid-cols-4  gap-4 text-sm w-fit h-fit">
                         {socialLinks?.map((option) => (
                             <motion.div key={option?.alt} className="flex h-fit gap-x-3 items-center !py-4 !px-6 bg-primary cursor-pointer"
                                 variants={itemVariants}

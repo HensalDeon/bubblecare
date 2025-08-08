@@ -38,8 +38,10 @@ const Careers = () => {
                         <MoveRight className="transition-transform duration-300 ease-in-out group-hover:translate-x-1" size={20} />
                     </a>
                 </motion.div>
+
+                {/* Careers navigation section */}
                 <div className='flex-1/2 relative h-full w-full text-tertiary overflow-hidden'>
-                    <div className='max-w-[322px] w-fit bg-white px-6 py-12 ml-auto'>
+                    <div className='max-w-[322px] w-fit bg-white px-6 py-12 ml-auto cursor-pointer'>
                         <span className='flex items-center gap-2 text-sm'>CAREERS AT BUBBLE<MoveUpRight className='w-4 h-4' /></span>
                         <h6 className='text-2xl'>Grow With Our Team</h6>
                     </div>
