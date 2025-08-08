@@ -14,5 +14,6 @@ import greenFuture from "./greenFuture.svg";
 import healtcareLaundry from "./healtcareLaundry.svg";
 import tunnelWasher from "./tunnelWasher.svg";
 import careers from "./careers.svg";
+import builfFuture from "./builfFuture.svg";
 
-export { careers, tunnelWasher, healtcareLaundry, greenFuture, langSwitcher, instagram, facebook, twitter, linkedin, hero, heroItem, hospitality, healthcare, housekeeping, retail, manufacturing };
+export { builfFuture, careers, tunnelWasher, healtcareLaundry, greenFuture, langSwitcher, instagram, facebook, twitter, linkedin, hero, heroItem, hospitality, healthcare, housekeeping, retail, manufacturing };

@@ -1,11 +1,8 @@
 import React from 'react'
+import BuildFuture from '../components/BuildFuture'
 
 const Careers = () => {
-  return (
-    <div>
-      Careers
-    </div>
-  )
+  return <BuildFuture />
 }
 
 export default Careers

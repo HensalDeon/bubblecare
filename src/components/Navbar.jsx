@@ -56,7 +56,7 @@ const Navbar = () => {
                         <ul className="flex flex-col gap-4">
                             {navOptions.map((option) => (
                                 <li key={option.label} className="pb-2">
-                                    {option?.label?.toUpperCase()}
+                                    <Link to={option?.link}>{option?.label?.toUpperCase()}</Link>
                                 </li>
                             ))}
                         </ul>
