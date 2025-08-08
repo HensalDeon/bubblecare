@@ -1,4 +1,4 @@
-import { facebook, healthcare, hospitality, housekeeping, instagram, linkedin, manufacturing, retail, twitter } from "../assets/images";
+import { colaborative, environment, facebook, growth, healthcare, hospitality, housekeeping, instagram, linkedin, manufacturing, retail, twitter, workLife } from "../assets/images";
 
 export const navOptions = [
     { label: "Home", link: "/" },
@@ -95,4 +95,27 @@ export const services = [
         icon: manufacturing,
         content: 'We manufacture over 2,500 boxes of industrial hangers monthly, supporting laundries across the UAE with durable and high-quality supply.'
     },
+];
+
+export const companyValues = [
+    {
+        title: "Collaborative Culture",
+        description: "Work alongside experienced professionals who value teamwork, mutual respect, and shared goals.",
+        icon: colaborative
+    },
+    {
+        title: "Work-Life Balance",
+        description: "We believe great performance begins with a healthy work environment and that includes personal time that matters.",
+        icon: workLife
+    },
+    {
+        title: "Growth & Learning",
+        description: "70% of our team has stayed with us for over 15 years – long-term growth isn’t a promise, it’s our culture.",
+        icon: growth
+    },
+    {
+        title: "Diverse Environment",
+        description: "From our sustainability practices to hiring, we’re committed to a workplace that’s ethical, diverse, and future-facing.",
+        icon: environment
+    }
 ];
