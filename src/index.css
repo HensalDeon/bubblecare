@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 @theme {
-    --breakpoint-xs: 450px;
+    --breakpoint-xs: 376px;
     --color-primary: #F8F8F8;
     --color-secondary: #1D2A3E;
     --color-tertiary: #314A70;
@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: "Numens", sans-serif;
+    font-family: "Numans", sans-serif;
     position: relative;
 }
 
@@ -39,11 +39,11 @@ body {
 }
 
 .head-text {
-    @apply xl:text-[84px] md:text-7xl text-6xl leading-[120%]
+    @apply xl:text-[84px] md:text-7xl xs:text-6xl text-5xl leading-[120%]
 }
 
 .sub-head-text {
-    @apply lg:text-[25px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[30px]
+    @apply lg:text-6xl text-3xl lg:leading-[120%]
 }
 
 .container-padding {
@@ -55,7 +55,7 @@ body {
 }
 
 .paddingY {
-    @apply sm:py-14 py-6
+    @apply lg:py-[100px] sm:py-16 py-6
 }
 
 .hover-line {

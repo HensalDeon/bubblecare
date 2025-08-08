@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <Navbar />
-            <div className="!mt-[70px] lg:!mt-[100px]">
+            <div className="!mt-[70px] lg:!mt-[100px] bg-primary">
                 <Outlet />
             </div>
             <Footer />

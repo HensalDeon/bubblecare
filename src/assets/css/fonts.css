@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Numens";
+    font-family: "Numans";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url("../css/Numans-Regular.ttf") format("truetype");
+    src: url("/src/assets/fonts/Numans-Regular.ttf") format("truetype");
 }

@@ -46,3 +46,24 @@ export const socialLinks = [
         alt: "LinkedIn",
     },
 ];
+
+export const aboutUsData = "Laundry shouldn’t hold your business back. At Bubble Holding, we use the latest technology with proven processes to handle laundry for hospitality, healthcare, and retail businesses across the UAE. From pickup to delivery, we keep your textiles clean, smooth, and fully traceable."
+
+export const aboutStats = [
+    {
+        value: "30",
+        label: "TONS/DAY HEALTHCARE PROCESSING CAPACITY",
+    },
+    {
+        value: "65K",
+        label: "SQ. FT. FACILITY",
+    },
+    {
+        value: "12",
+        label: "RETAIL LAUNDRY SHOPS IN ABU DHABI",
+    },
+    {
+        value: "1.2M+",
+        label: "PIECES PROCESSED WEEKLY",
+    },
+];
