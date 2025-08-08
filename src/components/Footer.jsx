@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { bottomFooter, footerContent, footerLinks, socialLinks } from "../constants/data";
 import { MoveRight } from "lucide-react";

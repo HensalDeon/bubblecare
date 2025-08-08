@@ -1,4 +1,18 @@
-import { colaborative, environment, facebook, growth, healthcare, hospitality, housekeeping, instagram, linkedin, manufacturing, retail, twitter, workLife } from "../assets/images";
+import {
+    colaborative,
+    environment,
+    facebook,
+    growth,
+    healthcare,
+    hospitality,
+    housekeeping,
+    instagram,
+    linkedin,
+    manufacturing,
+    retail,
+    twitter,
+    workLife,
+} from "../assets/images";
 
 export const navOptions = [
     { label: "Home", link: "/" },
@@ -47,7 +61,8 @@ export const socialLinks = [
     },
 ];
 
-export const aboutUsData = "Laundry shouldn’t hold your business back. At Bubble Holding, we use the latest technology with proven processes to handle laundry for hospitality, healthcare, and retail businesses across the UAE. From pickup to delivery, we keep your textiles clean, smooth, and fully traceable."
+export const aboutUsData =
+    "Laundry shouldn’t hold your business back. At Bubble Holding, we use the latest technology with proven processes to handle laundry for hospitality, healthcare, and retail businesses across the UAE. From pickup to delivery, we keep your textiles clean, smooth, and fully traceable.";
 
 export const aboutStats = [
     {
@@ -70,30 +85,35 @@ export const aboutStats = [
 
 export const services = [
     {
-        title: 'Hospitality',
+        title: "Hospitality",
         icon: hospitality,
-        content: 'Delivering five-star experiences with spotless linen care, precise textile leasing, and dependable turnaround, trusted by the UAE’s top hotels and resorts.',
-        link: true
+        content:
+            "Delivering five-star experiences with spotless linen care, precise textile leasing, and dependable turnaround, trusted by the UAE’s top hotels and resorts.",
+        link: true,
     },
     {
-        title: 'Healthcare',
+        title: "Healthcare",
         icon: healthcare,
-        content: 'UAE’s first RAL-certified facility for safe, traceable, and compliant healthcare laundry engineered for infection control.'
+        content:
+            "UAE’s first RAL-certified facility for safe, traceable, and compliant healthcare laundry engineered for infection control.",
     },
     {
-        title: 'Housekeeping',
+        title: "Housekeeping",
         icon: housekeeping,
-        content: 'Through First Resort LLC, we provide hospitality-grade soft services, including housekeeping, concierge, and support staff trained to meet your operational standards.'
+        content:
+            "Through First Resort LLC, we provide hospitality-grade soft services, including housekeeping, concierge, and support staff trained to meet your operational standards.",
     },
     {
-        title: 'Retail',
+        title: "Retail",
         icon: retail,
-        content: 'With 12+ locations across Abu Dhabi, Bubble Care Express offers quick, reliable laundry for everyday garments.'
+        content:
+            "With 12+ locations across Abu Dhabi, Bubble Care Express offers quick, reliable laundry for everyday garments.",
     },
     {
-        title: 'Manufacturing',
+        title: "Manufacturing",
         icon: manufacturing,
-        content: 'We manufacture over 2,500 boxes of industrial hangers monthly, supporting laundries across the UAE with durable and high-quality supply.'
+        content:
+            "We manufacture over 2,500 boxes of industrial hangers monthly, supporting laundries across the UAE with durable and high-quality supply.",
     },
 ];
 
@@ -101,25 +121,27 @@ export const companyValues = [
     {
         title: "Collaborative Culture",
         description: "Work alongside experienced professionals who value teamwork, mutual respect, and shared goals.",
-        icon: colaborative
+        icon: colaborative,
     },
     {
         title: "Work-Life Balance",
-        description: "We believe great performance begins with a healthy work environment and that includes personal time that matters.",
-        icon: workLife
+        description:
+            "We believe great performance begins with a healthy work environment and that includes personal time that matters.",
+        icon: workLife,
     },
     {
         title: "Growth & Learning",
-        description: "70% of our team has stayed with us for over 15 years – long-term growth isn’t a promise, it’s our culture.",
-        icon: growth
+        description:
+            "70% of our team has stayed with us for over 15 years – long-term growth isn’t a promise, it’s our culture.",
+        icon: growth,
     },
     {
         title: "Diverse Environment",
-        description: "From our sustainability practices to hiring, we’re committed to a workplace that’s ethical, diverse, and future-facing.",
-        icon: environment
-    }
+        description:
+            "From our sustainability practices to hiring, we’re committed to a workplace that’s ethical, diverse, and future-facing.",
+        icon: environment,
+    },
 ];
-
 
 export const jobs = [
     {
@@ -139,5 +161,20 @@ export const jobs = [
         description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         tags: ["FULL-TIME", "HYBRID"],
+    },
+];
+
+export const testimonials = [
+    {
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        name: "Employee Name",
+        title: "DESIGNATION OF EMPLOYEE",
+        image: "https://randomuser.me/api/portraits/men/32.jpg",
+    },
+    {
+        quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        name: "Another Name",
+        title: "SENIOR DESIGNER",
+        image: "https://randomuser.me/api/portraits/women/44.jpg",
     },
 ];

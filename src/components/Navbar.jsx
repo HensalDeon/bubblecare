@@ -48,7 +48,7 @@ const Navbar = () => {
                 {menuOpen && (
                     <motion.div
                         initial={{ maxHeight: 0, opacity: 0 }}
-                        animate={{ maxHeight: 256, opacity: 1 }} // Set to an approximate max height
+                        animate={{ maxHeight: 256, opacity: 1 }} 
                         exit={{ maxHeight: 0, opacity: 0 }}
                         transition={{ duration: 0.5 }}
                         className="lg:hidden bg-tertiary text-white container-padding overflow-hidden !py-4"
@@ -56,7 +56,7 @@ const Navbar = () => {
                         <ul className="flex flex-col gap-4">
                             {navOptions.map((option) => (
                                 <li key={option.label} className="pb-2">
-                                    <Link to={option?.link}>{option?.label?.toUpperCase()}</Link>
+                                    <Link to={option?.link} onClick={handleMenu}>{option?.label?.toUpperCase()}</Link>
                                 </li>
                             ))}
                         </ul>

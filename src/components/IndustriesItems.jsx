@@ -1,4 +1,3 @@
-import React from 'react';
 import { greenFuture, healtcareLaundry, tunnelWasher } from '../assets/images';
 import { MoveRight } from 'lucide-react';
 

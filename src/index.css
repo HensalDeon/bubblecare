@@ -38,18 +38,22 @@ body {
     @apply font-bold text-white lg:text-[90px] text-[80px] lg:leading-[70px] md:leading-[60px] leading-[55px] sm:mt-2 mt-4;
 }
 
+/* main text */
 .head-text {
     @apply xl:text-[84px] md:text-7xl xs:text-[56px] text-4xl leading-[120%]
 }
 
+/* subtext */
 .sub-head-text {
     @apply lg:text-6xl text-3xl lg:leading-[120%]
 }
 
+/* layout padding */
 .container-padding {
     @apply md:px-14 px-4
 }
 
+/* other utils */
 .paddingX {
     @apply sm:px-16 px-6
 }

@@ -57,11 +57,12 @@ export const wordContainerVariants = {
     visible: {
         opacity: 1,
         transition: {
-            staggerChildren: 0.15, // Delay between each word
+            staggerChildren: 0.15,
             delayChildren: 0.2
         }
     }
 }
+
 export const wordVariants = {
     hidden: {
         opacity: 0,

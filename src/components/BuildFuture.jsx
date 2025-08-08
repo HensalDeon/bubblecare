@@ -1,4 +1,3 @@
-import React from "react";
 import { builfFuture } from "../assets/images";
 import { MoveRight } from "lucide-react";
 import { motion } from "framer-motion";
@@ -49,7 +48,7 @@ const BuildFuture = () => {
                         </motion.div>
                     </div>
                     <div className="md:flex-1/3 overflow-hidden">
-                        <img loading="lazy" src={builfFuture} alt="build future" className="hover:scale-105 transition-transform duration-400 ease-out" />
+                        <img loading="eager" src={builfFuture} alt="build future" className="hover:scale-105 transition-transform duration-400 ease-out" />
                     </div>
                 </div>
             </div>

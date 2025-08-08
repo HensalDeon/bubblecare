@@ -1,4 +1,3 @@
-import React from 'react'
 import { aboutStats, aboutUsData } from '../constants/data'
 import { MoveRight } from 'lucide-react'
 import { containerVariants, itemVariants } from '../utils/animate'

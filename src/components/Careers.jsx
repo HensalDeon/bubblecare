@@ -1,4 +1,3 @@
-import React from 'react'
 import { careers } from '../assets/images'
 import { containerVariants, wordContainerVariants, wordVariants } from '../utils/animate'
 import { motion } from 'framer-motion'

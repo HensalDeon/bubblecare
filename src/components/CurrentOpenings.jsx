@@ -1,4 +1,3 @@
-import React from "react";
 import { jobs } from "../constants/data";
 import JobCard from "./JobCard";
 import { motion } from "framer-motion";

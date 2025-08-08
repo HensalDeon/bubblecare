@@ -1,4 +1,3 @@
-import React from "react";
 import { life } from "../assets/images";
 import { companyValues } from "../constants/data";
 import { MoveUpRight } from "lucide-react";

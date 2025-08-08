@@ -1,5 +1,3 @@
-import React from "react";
-
 const NotFound = () => {
     return (
         <section className={`bg-black h-screen w-full flex flex-col justify-center items-center`}>
