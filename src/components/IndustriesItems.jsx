@@ -7,7 +7,7 @@ const IndustriesItems = () => {
         <div className="flex flex-col lg:flex-row gap-6 paddingY">
             {/* Left Large Image */}
             <div className="lg:w-2/3 w-full overflow-hidden relative group">
-                <img
+                <img loading="lazy"
                     src={greenFuture}
                     alt="Green Future Forum 2024 – Strategic Partner"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 ease-out cursor-pointer"
@@ -29,7 +29,7 @@ const IndustriesItems = () => {
             {/* Right Two Smaller Stacked Images */}
             <div className="w-full lg:w-1/3 flex flex-col sm:flex-row lg:flex-col gap-6">
                 <div className="w-full md:flex-1 overflow-hidden relative group">
-                    <img
+                    <img loading="lazy"
                         src={healtcareLaundry}
                         alt="First RAL-Certified Healthcare Laundry in the Middle East"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 ease-out cursor-pointer"
@@ -48,7 +48,7 @@ const IndustriesItems = () => {
                     </div>
                 </div>
                 <div className="w-full md:flex-1 overflow-hidden relative group">
-                    <img
+                    <img loading="lazy"
                         src={tunnelWasher}
                         alt="Deployed the Region’s First Jensen Medline Tunnel Washer"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-400 ease-out cursor-pointer"

@@ -32,7 +32,7 @@ const Industries = () => {
                 flex flex-col transition-colors duration-300`}
               >
                 <div className="mb-4 flex justify-between items-start md:h-auto h-[100px]">
-                  <img src={service.icon} alt={service?.title} className="w-8 h-8 fill-white" />
+                  <img loading="lazy" src={service.icon} alt={service?.title} className="w-8 h-8 fill-white" />
                   <span
                     className={`text-xs underline text-white flex gap-2 items-center
                       opacity-0 group-hover:opacity-100 transition-opacity duration-300

@@ -33,7 +33,7 @@ const Navbar = () => {
 
                 {/* Language Switcher */}
                 <div className="hidden lg:flex gap-2 text-[#C6C6C6] justify-center items-center xl:text-md lg:text-sm">
-                    <span>ENGLISH TO ARABIC</span> <img src={langSwitcher} alt="Language Switcher" className="w-5 h-5" />
+                    <span>ENGLISH TO ARABIC</span> <img loading="lazy" src={langSwitcher} alt="Language Switcher" className="w-5 h-5" />
                 </div>
 
                 {/* Hamburger Menu Icon */}
@@ -62,7 +62,7 @@ const Navbar = () => {
                         </ul>
                         <div className="!mt-4 flex items-center gap-2 text-[#C6C6C6]">
                             <span>ENGLISH TO ARABIC</span>
-                            <img src={langSwitcher} alt="Language Switcher" className="w-5 h-5" />
+                            <img loading="lazy" src={langSwitcher} alt="Language Switcher" className="w-5 h-5" />
                         </div>
                     </motion.div>
                 )}

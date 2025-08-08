@@ -46,7 +46,7 @@ const Footer = () => {
                                     transition: { duration: 0.2 }
                                 }}
                             >
-                                <img src={option?.icon} alt={option?.alt} className="w-4 h-4" />
+                                <img loading="lazy" src={option?.icon} alt={option?.alt} className="w-4 h-4" />
                                 <span className="xl:block hidden">{option?.label}</span>
                             </motion.div>
                         ))}

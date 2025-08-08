@@ -39,7 +39,7 @@ const Hero = () => {
           </a>
         </motion.div>
         <div className='md:col-span-2 relative h-fit text-white overflow-hidden'>
-          <img src={heroItem} className='w-full hover:scale-105 transition-transform duration-400 ease-out cursor-pointer' />
+          <img loading="lazy" src={heroItem} className='w-full hover:scale-105 transition-transform duration-400 ease-out cursor-pointer' />
           <div className='absolute xl:bottom-7 bottom-4 xl:left-7 left-4'>
             <span className='flex items-center gap-2'>2025 GOAL<MoveUpRight className='w-4 h-4' /></span>
             <h6 className='text-2xl'>Inside Bubble Holding</h6>
