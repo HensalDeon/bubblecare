@@ -8,9 +8,9 @@ const Hero = () => {
   const text = "Engineered For The Cleanest Standards"
   const words = text.split(" ")
   return (
-    <section className={`lg:min-h-[calc(100vh_-_100px)] min-h-[calc(100vh_-_70px)] bg-cover bg-center paddingY flex flex-col justify-end`} style={{ backgroundImage: `url(${hero})` }}>
+    <section className={`lg:min-h-[calc(100vh_-_100px)] min-h-[calc(100vh_-_70px)] bg-cover bg-center  flex flex-col justify-end`} style={{ backgroundImage: `url(${hero})` }}>
       <motion.div
-        className='grid grid-cols-1 lg:grid-cols-5 gap-6 container container-padding !mx-auto'
+        className='grid grid-cols-1 lg:grid-cols-5 gap-6 container container-padding paddingY !mx-auto'
         variants={containerVariants}
         initial="hidden"
         animate="visible"
