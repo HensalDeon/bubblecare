@@ -41,13 +41,13 @@ const Testimonial = () => {
                 ))}
                 {/* Minimal styled navigation buttons */}
                 <div className="absolute xl:bottom-24 bottom-16 right-6 flex gap-8 z-[999] text-white">
-                    <button className="cursor-pointer group custom-prev w-[40px] h-[40px] text-sm bg-[#C6C6C6] flex justify-center items-center rounded-sm transition-all">
+                    <button aria-label="left" className="cursor-pointer group custom-prev w-[40px] h-[40px] text-sm bg-[#C6C6C6] flex justify-center items-center rounded-sm transition-all">
                         <MoveLeft
                             className="transition-transform duration-300 ease-in-out group-hover:-translate-x-1"
                             size={10}
                         />
                     </button>
-                    <button className="cursor-pointer group custom-next w-[40px] h-[40px] text-sm bg-[#C6C6C6] flex justify-center items-center rounded-sm transition-all">
+                    <button aria-label="right" className="cursor-pointer group custom-next w-[40px] h-[40px] text-sm bg-[#C6C6C6] flex justify-center items-center rounded-sm transition-all">
                         <MoveRight
                             className="transition-transform duration-300 ease-in-out group-hover:translate-x-1"
                             size={10}

@@ -38,7 +38,7 @@ const Navbar = () => {
 
                 {/* Hamburger Menu Icon */}
                 <div className="lg:hidden flex">
-                    <button onClick={handleMenu} className="text-white cursor-pointer">
+                    <button onClick={handleMenu} className="text-white cursor-pointer" aria-label="menu">
                         {menuOpen ? <X size={24} /> : <Menu size={24} />}
                     </button>
                 </div>

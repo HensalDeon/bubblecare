@@ -48,6 +48,7 @@ const Hero = () => {
                     <img
                         loading="lazy"
                         src={heroItem}
+                        alt="hero items"
                         className="w-full hover:scale-105 transition-transform duration-400 ease-out cursor-pointer"
                     />
                     <div className="absolute xl:bottom-7 bottom-4 xl:left-7 left-4">
