@@ -5,8 +5,8 @@ const JobCard = ({ title, description, tags }) => {
     return (
         <div className="border-t border-tertiary py-8">
             <h3 className="text-lg font-semibold">{title}</h3>
-            <div className='flex xl:flex-row flex-col justify-between xl:items-center xl:pb-0 pb-6'>
-                <p className="text-sm text-gray-600 py-4 flex-2/3">{description}</p>
+            <div className='flex xl:flex-row flex-col justify-between xl:items-center xl:pb-0 pb-6 gap-x-4'>
+                <p className="text-md text-gray-600 py-4 flex-2/3">{description}</p>
                 <a
                     href="#"
                     className="flex justify-between text-sm border-b border-tertext-tertiary !pb-3 max-w-[408px] flex-1/3 h-fit group"
