@@ -4,13 +4,13 @@ import Footer from "./components/Footer";
 
 function App() {
     return (
-        <div className="container !m-auto">
+        <>
             <Navbar />
-            <div className="!lg:mt-[100px] !mt-[70px]">
+            <div className="!mt-[70px] lg:!mt-[100px]">
                 <Outlet />
             </div>
             <Footer />
-        </div>
+        </>
     );
 }
 

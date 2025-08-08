@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { bottomFooter, footerContent, footerLinks, socialLinks } from "../constants/data";
+import { MoveRight } from "lucide-react";
 
 const Footer = () => {
     return (
@@ -15,9 +16,7 @@ const Footer = () => {
                             className="flex justify-between text-sm text-tertiary border-b border-tertiary !pb-3 w-full !pt-12 group"
                         >
                             <span>READ ABOUT OUR LEGACY</span>
-                            <span className="transition-transform duration-300 ease-in-out group-hover:translate-x-1">
-                                →
-                            </span>
+                            <MoveRight className="transition-transform duration-300 ease-in-out group-hover:translate-x-1" size={20} />
                         </a>
                     </div>
 
@@ -36,9 +35,9 @@ const Footer = () => {
                     </div>
 
                     {/* Social Icons */}
-                    <div className=" md:col-span-1 grid grid-cols-2 gap-3 text-sm w-fit">
+                    <div className="md:col-span-1 grid xs:grid-cols-2 2xl:gap-x-8 gap-4 text-sm w-fit h-fit">
                         {socialLinks?.map((option) => (
-                            <div key={option?.alt} className="flex h-fit gap-2 items-center !py-4 !px-6 bg-primary cursor-pointer">
+                            <div key={option?.alt} className="flex h-fit gap-x-3 items-center !py-4 !px-6 bg-primary cursor-pointer">
                                 <img src={option?.icon} alt={option?.alt} className="w-4 h-4" />
                                 {option?.label}
                             </div>
@@ -48,12 +47,12 @@ const Footer = () => {
             </div>
 
             {/* Bottom Bar */}
-            <div className="bg-black text-white text-sm lg:h-[100px] h-[70px] -lg:bottom-[100px] -bottom-[70px] absolute w-full left-0 flex container-padding">
-                <div className="container w-full mx-auto flex flex-col sm:flex-row justify-between items-center gap-1 !py-3 ">
+            <div className="bg-black text-white text-sm lg:h-[100px] h-[70px] -lg:bottom-[100px] -bottom-[70px] absolute w-full left-0 flex items-center justify-center">
+                <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-1 !py-3 container-padding">
                     <p>Designed By FireFly Agency</p>
                     <div className="flex gap-4">
                         {bottomFooter?.map((option) => (
-                            <Link to="#" key={option} className="hover:underline">
+                            <Link to="#" key={option} className="hover-line">
                                 {option}
                             </Link>
                         ))}
